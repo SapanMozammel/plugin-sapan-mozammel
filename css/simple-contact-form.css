@@ -1,0 +1,27 @@
+.simple-contact-form-wrapper {
+  max-width: 500px!important;
+  display: flex;
+  flex-direction: column;
+}
+.simple-contact-form-wrapper .scf-title {
+  font-size: 2.25rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.simple-contact-form-wrapper .scf-desc {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: #c00;
+}
+#simple-contact-form {
+  display: flex;
+  flex-direction: column;
+}
+#simple-contact-form .scf-button,
+#simple-contact-form .scf-control {
+  margin-bottom: 20px;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
