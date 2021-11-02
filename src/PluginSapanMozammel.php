@@ -11,7 +11,7 @@ class PluginSapanMozammel
     add_action('wp_enqueue_scripts', array($this, 'load_assets'));
 
     // add shortcode
-    add_shortcode("contact-form", array($this, 'load_shortcode'));
+    add_shortcode("contact-form", array($this, 'contact_form_shortcode'));
 
     // add script
     add_action('wp_footer', array($this, 'load_scripts'));
@@ -57,7 +57,7 @@ class PluginSapanMozammel
     );
   }
 
-  public function load_shortcode()
+  public function contact_form_shortcode()
   {
 ?>
     <div class="simple-contact-form-wrapper">
